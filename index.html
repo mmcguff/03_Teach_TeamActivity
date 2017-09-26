@@ -9,18 +9,21 @@
     <body>
     
         <form action="/action_page.php">
-            Name:</br>
-            <input type="text" name="firstname" value="Joseph Smith">
-        </br>
-            Email:</br>
-            <input type="text" name="lastname" value="joesmith1830@test.com"></br>
             
+            <label for="name">Name:</label></br>
+            <input type="text" id="name" value="Joseph Smith"></br>
             
+            <label for="name">Email:</label></br>
+            <input type="text" id="email" value="joesmith1830@test.com"></br>
             
-            <input type="radio" name="major" value="cs" checked>Computer Science</br>
-            <input type="radio" name="major" value="web">Web Design and Development</br>
-            <input type="radio" name="major" value="cit">Computer Information Technology</br>
-            <input type="radio" name="gender" value="ce">Computer Engineering</br>
+            <label for="major">Major:</label></br>
+            <input type="radio" id="major" value="cs" checked>Computer Science</br>
+            <input type="radio" id="major" value="web">Web Design and Development</br>
+            <input type="radio" id="major" value="cit">Computer Information Technology</br>
+            <input type="radio" id="major" value="ce">Computer Engineering</br>
+
+            <label for="comments">Comments:</label></br>
+            <textarea type="text" id="comments" rows="4" cols="50">Enter your comments here...</textarea>    
 
             </br></br>
             <input type="submit" value="Submit">
